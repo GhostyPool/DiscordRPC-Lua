@@ -30,9 +30,9 @@ DiscordRPC Lua v1.0
  - `optionalSteamId` (string or nil): Steam ID, optional
 
 
-### `discordRPC.updatePresence(presence)`
+## `discordRPC.updatePresence(presence)`
 
- - `presence`: a table with the following keys (all optional):
+ - `presence` must be a table with the following keys (all optional):
     - `state` (string, max length: 127)
     - `details` (string, max length: 127)
     - `startTimestamp` (number)
