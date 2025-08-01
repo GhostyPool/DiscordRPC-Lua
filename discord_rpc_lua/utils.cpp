@@ -12,7 +12,7 @@ void utils::printError(const char* error)
 
 	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
 
-	printf("[DiscordRPC Lua] Encountered an error: %s", error);
+	printf("[DiscordRPC Lua] Encountered an error: %s\n", error);
 
 	SetConsoleTextAttribute(hConsole, ogColour);
 }
